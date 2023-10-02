@@ -1,0 +1,232 @@
+/* ------------------------Global------------------------ */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F1F1F1;
+}
+p{
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: 400;
+    color: #000000;
+    margin: 15px 0;
+}
+h2{
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #757575;
+    margin: 10px 0;
+    padding: 16px 0;
+}
+h5{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #656565;
+    margin: 10px 0;
+}
+h6{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #009688;
+    margin: 10px 0;
+}
+b{  
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+}
+.container{
+    width: 100%;
+    padding:8px;
+    box-sizing: border-box;
+}
+.row{
+    width: 100%;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+img{
+    width: 100%;
+}
+.in-line{
+    display: inline-block;
+}
+/* --------------------------------Main Body Start-------------------------- */
+.jane-doe-main{
+    width: 33.5%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.jane-doe-inner{
+    box-shadow: 0px 0px 10px 1px #C9C9C9;
+    background-color: white;
+    padding: 0 0 25px;
+}
+.jane-doe-inner-img{
+    background-image: url('../images/avatar_hat.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0.5px;
+    box-sizing: border-box;
+}
+.jane-doe-inner-img h2{
+    color: black;
+    margin: 56% 0 2% 3%;
+    padding: 0;
+}
+.jane-doe-inner-text{
+    padding: 0.15px 16px;
+}
+.jane-doe-inner-text-box1{
+    border-bottom: 1px solid #EEEEEE;
+}
+.jane-doe-inner-text p{
+    color: #757575;
+}
+.jane-doe-inner-text p i{
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0 16px 0 0;
+    color: #009688;
+}
+.custom{
+    font-size: 18px;
+    line-height: 27px;
+    margin: 18px 0;
+}
+.jane-doe-inner-text-bar{
+    height: 18px;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+}
+.jane-doe-inner-text-bar-row p{
+    margin: 15px 0;
+}
+.green-bar{
+    background-color: #009688;
+    text-align: center;
+    width: 90%;
+    height: 18px;
+    border-radius: 30px;
+}
+.green-bar p{
+    line-height: 18px;
+    color: white;
+    font-size: 13px;
+}
+.green-bar2{
+    width: 80%;
+}
+.green-bar3{
+    width: 70%;
+}
+.green-bar4{
+    width: 50%;
+}
+.jane-doe-inner-text-bar1{
+    height: 25px;
+}
+.custom1{
+    padding: 10px 0;
+}
+.green-bar5{
+    width: 100%;
+    height: 25px;
+}
+.green-bar6{
+    width: 50%;
+    height: 25px;
+}
+.green-bar7{
+    width: 25%;
+    height: 25px;
+}
+.experience-main{
+    width: 66.5%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.experience-inner{
+    box-shadow: 0px 0px 10px 1px #C9C9C9;
+    padding: 0.15px 16px 1px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.margin-b{
+    margin: 0 0 16px;
+}
+.experience-inner h2{
+    padding-left:4px;
+}
+.experience-inner h2 i{
+    margin: 0 16px 0 0;
+    color: #009688;
+    font-size: 36px;
+    line-height: 36px;
+}
+.experience-inner-box1{
+    padding: 0.15px 16px 20px;
+}
+.bord-b{
+    border-bottom: 1px solid #EEEEEE;
+    padding: 0 0 5px;
+}
+.experience-inner-box1 h6 i{
+    margin: 0 16px 0 0;
+    color: #009688;
+    font-size: 16px;
+    line-height: 16px;
+}
+.experience-inner-box1 h6 span{
+    padding: 2px 8px 3px;
+    background-color: #009688;
+    color: white;
+    border-radius: 3px;
+}
+footer{
+    padding: 0.15px 16px;
+    background-color: #009688;
+    box-sizing: border-box;
+    text-align: center;
+}
+footer p{
+    color: white;
+}
+footer i{
+    color: white;
+}
+footer p a{
+    color: white;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:600px) {
+    .jane-doe-main, .experience-main{
+        width: 100%;
+    }
+}
